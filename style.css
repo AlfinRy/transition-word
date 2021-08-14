@@ -55,7 +55,7 @@ h2 i::before {
   text-align: center;
   width: 100%;
   display: initial;
-  transition: 0.5s;
+  transition: 0.5s ease-in-out;
 }
 h2:hover i::before {
   opacity: 0;
@@ -65,7 +65,7 @@ h2 i::after {
   content: 'Bantu Indonesia bernafas lagi';
   opacity: 0;
   visibility: hidden;
-  transition: 0.5s;
+  transition: 0.5s ease-in-out;
 }
 h2:hover i::after {
   opacity: 1;
